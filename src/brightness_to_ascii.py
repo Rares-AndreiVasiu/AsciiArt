@@ -1,5 +1,3 @@
-import sys
-
 import numpy as np
 BRIGHTNESS_TO_ASCII_MAPPER = ("`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvcz"
                               "XYUJCLQ0OZmwqpdbkhao*#MW&8%B@$")
@@ -43,6 +41,7 @@ def brightness_matrix_to_ascii_matrix(brightness_matrix):
 
     if not np.issubdtype(brightness_matrix.dtype, np.float64):
         raise ValueError("brightness_matrix must be floats")
+
     ascii_matrix = np.empty((h, w), dtype=np.dtype("<U1"))
 
     for i in range(len(brightness_matrix)):
