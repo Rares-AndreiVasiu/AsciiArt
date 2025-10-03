@@ -33,13 +33,22 @@ def brightness_to_ascii_pixel(brightness_pixel):
 
 
 def brightness_matrix_to_ascii_matrix(brightness_matrix):
+    if not isinstance(brightness_matrix, np.ndarray):
+        raise TypeError("brightness_matrix must be a numpy array")
+
+    if brightness_matrix.ndim != 2:
+        raise ValueError("brightness_matrix must be a 2D numpy array")
+
     h, w = brightness_matrix.shape[:2]
 
+    if not np.issubdtype(brightness_matrix.dtype, np.float64):
+        raise ValueError("brightness_matrix must be floats")
     ascii_matrix = np.empty((h, w), dtype=np.dtype("<U1"))
 
     for i in range(len(brightness_matrix)):
         for j in range(len(brightness_matrix[i])):
             ascii_matrix[i][j] = brightness_to_ascii_pixel(brightness_matrix[i][j])
+
     return ascii_matrix
 
 

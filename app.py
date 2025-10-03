@@ -29,4 +29,7 @@ def ascii_art():
 
     ascii_matrix = brightness_matrix_to_ascii_matrix(brightness_matrix)
 
+    if args.debug != 0:
+        print(ascii_matrix, end="\n\n\n\n")
+
     print_matrix(ascii_matrix, args.fgcolor, args.bgcolor, args.style, args.outfile)
