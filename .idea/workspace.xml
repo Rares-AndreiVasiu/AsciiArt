@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b6f30f7-c982-4589-9c2a-3c3f0329cdd7" name="Changes" comment="removed clio pictured">
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brightness_to_ascii.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/brightness_to_ascii.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/printing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/printing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rgb_to_brightness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rgb_to_brightness.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/test_brightness_to_ascii.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test_brightness_to_ascii.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woods.heic" beforeDir="false" afterPath="$PROJECT_DIR$/img/woods.heic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woods.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/woods.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="2b6f30f7-c982-4589-9c2a-3c3f0329cdd7" name="Changes" comment="modified brightness to ascii matrix function and testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758912028176</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modified brightness to ascii matrix function and testing">
+      <option name="closed" value="true" />
+      <created>1759608630355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759608630356</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +141,7 @@
     <MESSAGE value="removed clio picture from project" />
     <MESSAGE value="added arguments to program, changed the print function and updated the rgb conversion algorithm" />
     <MESSAGE value="removed clio pictured" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed clio pictured" />
+    <MESSAGE value="modified brightness to ascii matrix function and testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified brightness to ascii matrix function and testing" />
   </component>
 </project>
