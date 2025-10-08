@@ -38,7 +38,6 @@ def test_filter_luminosity_argument():
 
     assert args.filter == "luminosity"
 
-
 def test_fg_and_bg_colors_arguments():
     args = get_args(["woods.jpg", "--bgcolor", "#FFD44C", "--fgcolor", "#FFD44C"])
 

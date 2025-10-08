@@ -96,7 +96,6 @@ def test_rgb_matrix_to_brightness_matrix_lightness():
     ])
     np.testing.assert_allclose(result, expected, rtol=1e-5)
 
-
 def test_rgb_matrix_to_brightness_matrix_luminosity():
     mat = np.array([
         [[100, 150, 200]],
