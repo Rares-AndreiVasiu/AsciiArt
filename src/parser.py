@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-def get_args():
+def get_args(argv=None):
     parser = argparse.ArgumentParser(
         prog="main",
         description="An image to ascii art convertor",
@@ -81,5 +81,5 @@ def get_args():
                         const=1,
                         default=0)
 
-    return parser.parse_args()
+    return parser.parse_args(argv)
 

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b6f30f7-c982-4589-9c2a-3c3f0329cdd7" name="Changes" comment="modified brightness to ascii matrix function and testing" />
+    <list default="true" id="2b6f30f7-c982-4589-9c2a-3c3f0329cdd7" name="Changes" comment="modified brightness to ascii matrix function and testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rgb_to_brightness.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rgb_to_brightness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for testing.test_utils.test_check_color.executor": "Run",
+    "Python tests.Python tests for testing.test_utils.test_check_color_invalid_type.executor": "Run",
     "Python tests.Python tests in test_brightness_to_ascii.py.executor": "Run",
     "Python.Main.executor": "Run",
     "Python.brightness_to_ascii.executor": "Run",
@@ -59,6 +67,44 @@
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for testing.test_utils.test_check_color_invalid_type">
+    <configuration name="Python tests for testing.test_utils.test_check_color" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ascii_art" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testing.test_utils.test_check_color&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for testing.test_utils.test_check_color_invalid_type" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ascii_art" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testing.test_utils.test_check_color_invalid_type&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for testing.test_utils.test_check_color_invalid_type" />
+        <item itemvalue="Python tests.Python tests for testing.test_utils.test_check_color" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

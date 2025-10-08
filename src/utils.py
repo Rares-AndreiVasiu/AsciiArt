@@ -12,8 +12,10 @@ register_heif_opener()
 RESAMPLE = Image.Resampling.LANCZOS
 
 def check_color(color: str) -> Match[str] | None:
-    return HEX_RE.match(color)
+    if not isinstance(color, str):
+        raise TypeError("Invalid color")
 
+    return HEX_RE.match(color)
 
 def open_image(path: str) -> Image.Image:
     ext = os.path.splitext(path)[1].lower()

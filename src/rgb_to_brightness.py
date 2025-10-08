@@ -28,5 +28,7 @@ def rgb_matrix_to_brightness_matrix(matrix, algorithm):
                     brightness_matrix[i, j] = rgb_to_lightness(pixel)
                 case "luminosity":
                     brightness_matrix[i, j] = rgb_to_luminosity(pixel)
+                case _:
+                    raise ValueError("Invalid algorithm")
 
     return brightness_matrix

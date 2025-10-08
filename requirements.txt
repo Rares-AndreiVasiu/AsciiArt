@@ -1,0 +1,11 @@
+code2flow==2.5.1
+colored==2.3.1
+iniconfig==2.1.0
+numpy==2.3.3
+packaging==25.0
+pillow==11.3.0
+pillow_heif==1.1.0
+pip==24.3.1
+pluggy==1.6.0
+Pygments==2.19.2
+pytest==8.4.2
