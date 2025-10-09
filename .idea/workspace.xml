@@ -7,10 +7,6 @@
     <list default="true" id="2b6f30f7-c982-4589-9c2a-3c3f0329cdd7" name="Changes" comment="finished rgb conversion testing, modified parser's get_args and utils type error checking. TO DO: finish testing utils">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/testing/tree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.gv" beforeDir="false" afterPath="$PROJECT_DIR$/out.gv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.png" beforeDir="false" afterPath="$PROJECT_DIR$/out.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/rares/Dev/pyproj/ascii_art",
+    "last_opened_file_path": "/home/rares/Dev/pyproj/ascii_art/out.png",
     "settings.editor.selected.configurable": "Errors",
     "settings.editor.splitter.proportion": "0.19518542"
   }
