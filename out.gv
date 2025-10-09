@@ -14,84 +14,84 @@ subgraph legend{
         <tr><td>Function call</td><td><font color='black'>&#8594;</font></td></tr>
         </table></td></tr></table>
         >];
-}node_c3e69d97 [label="10: ascii_art()" name="app::ascii_art" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
-node_22a0eac9 [label="0: (global)()" name="brightness_to_ascii::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
-node_e3e83c71 [label="33: brightness_matrix_to_ascii_matrix()" name="brightness_to_ascii::brightness_matrix_to_ascii_matrix" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
-node_41915c76 [label="13: brightness_to_ascii_pixel()" name="brightness_to_ascii::brightness_to_ascii_pixel" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_aaaeb9e2 [label="54: main()" name="brightness_to_ascii::main" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
-node_7dc45ae7 [label="0: (global)()" name="main::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
-node_a4fdf97c [label="4: main()" name="main::main" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
-node_b0a6aebb [label="4: get_args()" name="parser::get_args" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_f2e6fea5 [label="5: print_matrix()" name="printing::print_matrix" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_39d55863 [label="15: rgb_matrix_to_brightness_matrix()" name="rgb_to_brightness::rgb_matrix_to_brightness_matrix" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
-node_f273dc8f [label="3: rgb_to_average()" name="rgb_to_brightness::rgb_to_average" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_6b847f45 [label="7: rgb_to_lightness()" name="rgb_to_brightness::rgb_to_lightness" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_b6a30fe2 [label="12: rgb_to_luminosity()" name="rgb_to_brightness::rgb_to_luminosity" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_970136aa [label="14: check_color()" name="utils::check_color" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_bd9aca79 [label="18: open_image()" name="utils::open_image" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_600af175 [label="34: resize_image()" name="utils::resize_image" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
-node_c3e69d97 -> node_e3e83c71 [color="#CC79A7" penwidth="2"];
-node_c3e69d97 -> node_b0a6aebb [color="#CC79A7" penwidth="2"];
-node_c3e69d97 -> node_f2e6fea5 [color="#CC79A7" penwidth="2"];
-node_c3e69d97 -> node_39d55863 [color="#CC79A7" penwidth="2"];
-node_c3e69d97 -> node_970136aa [color="#CC79A7" penwidth="2"];
-node_c3e69d97 -> node_970136aa [color="#CC79A7" penwidth="2"];
-node_c3e69d97 -> node_bd9aca79 [color="#CC79A7" penwidth="2"];
-node_c3e69d97 -> node_600af175 [color="#CC79A7" penwidth="2"];
-node_22a0eac9 -> node_aaaeb9e2 [color="#E69F00" penwidth="2"];
-node_e3e83c71 -> node_41915c76 [color="#E69F00" penwidth="2"];
-node_aaaeb9e2 -> node_41915c76 [color="#56B4E9" penwidth="2"];
-node_aaaeb9e2 -> node_41915c76 [color="#56B4E9" penwidth="2"];
-node_aaaeb9e2 -> node_41915c76 [color="#56B4E9" penwidth="2"];
-node_7dc45ae7 -> node_a4fdf97c [color="#CC79A7" penwidth="2"];
-node_a4fdf97c -> node_c3e69d97 [color="#F0E442" penwidth="2"];
-node_39d55863 -> node_f273dc8f [color="#009E73" penwidth="2"];
-node_39d55863 -> node_6b847f45 [color="#009E73" penwidth="2"];
-node_39d55863 -> node_b6a30fe2 [color="#009E73" penwidth="2"];
-subgraph cluster_703ccbb9 {
-    node_c3e69d97;
+}node_792f238b [label="10: ascii_art()" name="app::ascii_art" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_0dd151e8 [label="0: (global)()" name="brightness_to_ascii::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_a67d4db2 [label="33: brightness_matrix_to_ascii_matrix()" name="brightness_to_ascii::brightness_matrix_to_ascii_matrix" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_4bb02daa [label="13: brightness_to_ascii_pixel()" name="brightness_to_ascii::brightness_to_ascii_pixel" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_1cc9e215 [label="54: main()" name="brightness_to_ascii::main" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_3f30bff3 [label="0: (global)()" name="main::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_0616bd18 [label="4: main()" name="main::main" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_8b9f5952 [label="4: get_args()" name="parser::get_args" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_c0680bfe [label="5: print_matrix()" name="printing::print_matrix" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_e5c0637c [label="15: rgb_matrix_to_brightness_matrix()" name="rgb_to_brightness::rgb_matrix_to_brightness_matrix" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_01f7fb61 [label="3: rgb_to_average()" name="rgb_to_brightness::rgb_to_average" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_ca7b6cfa [label="7: rgb_to_lightness()" name="rgb_to_brightness::rgb_to_lightness" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_c93b308e [label="12: rgb_to_luminosity()" name="rgb_to_brightness::rgb_to_luminosity" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_bd482e4e [label="14: check_color()" name="utils::check_color" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_1645a4f2 [label="20: open_image()" name="utils::open_image" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_93edf260 [label="36: resize_image()" name="utils::resize_image" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_792f238b -> node_a67d4db2 [color="#009E73" penwidth="2"];
+node_792f238b -> node_8b9f5952 [color="#009E73" penwidth="2"];
+node_792f238b -> node_c0680bfe [color="#009E73" penwidth="2"];
+node_792f238b -> node_e5c0637c [color="#009E73" penwidth="2"];
+node_792f238b -> node_bd482e4e [color="#009E73" penwidth="2"];
+node_792f238b -> node_bd482e4e [color="#009E73" penwidth="2"];
+node_792f238b -> node_1645a4f2 [color="#009E73" penwidth="2"];
+node_792f238b -> node_93edf260 [color="#009E73" penwidth="2"];
+node_0dd151e8 -> node_1cc9e215 [color="#000000" penwidth="2"];
+node_a67d4db2 -> node_4bb02daa [color="#56B4E9" penwidth="2"];
+node_1cc9e215 -> node_4bb02daa [color="#0072B2" penwidth="2"];
+node_1cc9e215 -> node_4bb02daa [color="#0072B2" penwidth="2"];
+node_1cc9e215 -> node_4bb02daa [color="#0072B2" penwidth="2"];
+node_3f30bff3 -> node_0616bd18 [color="#009E73" penwidth="2"];
+node_0616bd18 -> node_792f238b [color="#000000" penwidth="2"];
+node_e5c0637c -> node_01f7fb61 [color="#F0E442" penwidth="2"];
+node_e5c0637c -> node_ca7b6cfa [color="#F0E442" penwidth="2"];
+node_e5c0637c -> node_c93b308e [color="#F0E442" penwidth="2"];
+subgraph cluster_091ba46f {
+    node_792f238b;
     label="File: app";
     name="app";
     style="filled";
     graph[style=dotted];
 };
-subgraph cluster_3dd301a6 {
-    node_41915c76 node_e3e83c71 node_aaaeb9e2 node_22a0eac9;
+subgraph cluster_dfbf33d0 {
+    node_4bb02daa node_a67d4db2 node_1cc9e215 node_0dd151e8;
     label="File: brightness_to_ascii";
     name="brightness_to_ascii";
     style="filled";
     graph[style=dotted];
 };
-subgraph cluster_ff85cb15 {
-    node_a4fdf97c node_7dc45ae7;
+subgraph cluster_3039ddc5 {
+    node_0616bd18 node_3f30bff3;
     label="File: main";
     name="main";
     style="filled";
     graph[style=dotted];
 };
-subgraph cluster_704b8edd {
-    node_b0a6aebb;
+subgraph cluster_a3c51c57 {
+    node_8b9f5952;
     label="File: parser";
     name="parser";
     style="filled";
     graph[style=dotted];
 };
-subgraph cluster_9daedb26 {
-    node_f2e6fea5;
+subgraph cluster_605a7008 {
+    node_c0680bfe;
     label="File: printing";
     name="printing";
     style="filled";
     graph[style=dotted];
 };
-subgraph cluster_1db41294 {
-    node_f273dc8f node_6b847f45 node_b6a30fe2 node_39d55863;
+subgraph cluster_61766059 {
+    node_01f7fb61 node_ca7b6cfa node_c93b308e node_e5c0637c;
     label="File: rgb_to_brightness";
     name="rgb_to_brightness";
     style="filled";
     graph[style=dotted];
 };
-subgraph cluster_507b3e46 {
-    node_970136aa node_bd9aca79 node_600af175;
+subgraph cluster_d62545a4 {
+    node_bd482e4e node_1645a4f2 node_93edf260;
     label="File: utils";
     name="utils";
     style="filled";
