@@ -7,7 +7,7 @@ def get_args(argv=None):
         description="An image to ascii art convertor",
         usage="%(prog)s [options]",
         allow_abbrev=True,
-        epilog="And that is how ascii art was a long time ago",
+        epilog="And that is how ascii art was done a long time ago",
         add_help=True)
 
     """
