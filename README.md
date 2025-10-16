@@ -16,10 +16,10 @@ supports various image formats, including high efficiency image formats(HEIF and
 ## Architecture
 ### Entry point (main.py):
 - initializes the application
-- calls the "brain" of the application app.py
-- you can compile the file without "python" arg in the terminal (./main [args])
+- calls the "brain" of the application `app.py`
+- you can compile the file without "python" arg in the terminal `(./main [args])`
 
-### Brains of the application (app.py)
+### "Brains" of the application (app.py)
 - manages the pipeline of the application:
     - parsing arguments
     - image loading
@@ -29,7 +29,7 @@ supports various image formats, including high efficiency image formats(HEIF and
     - printing with custom colours
 
 ### Command line arguments
-- positional argument: input image path
+- positional argument: **input image path**
 - optional arguments:
 
 | Argument Type   | Argument Name      | Short Description         | Possible Values                                 |
@@ -67,6 +67,13 @@ supports various image formats, including high efficiency image formats(HEIF and
 - note that the character set is in increasing order of brightness 
 - we map each pixel from the brightness matrix to its appropriate char.
 - check the formula from the (link from brightness to ascii).
+
+### ASCII art printing
+- the function `print_matrix()` takes as input a matrix and color settings provided by the colored package.
+- initially there were some issues with aspect ratio of the output (characters are taller than they are wide).
+- so I had to print each character three times to get a better aspect ratio of the ascii art image.
+- genuinely, this extending/stretching method allowed us to preserve the proportions in the final output.
+- the colored package allows us to set the foreground, background, and some deliberately picked text styles.
 
 
 ## How to install required packages?
