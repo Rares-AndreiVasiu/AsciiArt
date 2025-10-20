@@ -29,8 +29,6 @@ supports various image formats, including high efficiency image formats(HEIF and
     - printing with custom colours
 
 ### Command line arguments
-- positional argument: **input image path**
-- optional arguments:
 
 | Argument Type   | Argument Name      | Short Description         | Possible Values                                 |
 |-----------------|-------------------|--------------------------|-------------------------------------------------|
